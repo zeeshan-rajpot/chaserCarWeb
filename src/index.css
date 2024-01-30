@@ -15,4 +15,13 @@ body {
     border-right: none !important;
     border-bottom: 2px dashed #1985d2 !important;
   }
+
+  .mobwteam {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .mobwnav {
+    display: none !important;
+  }
 }

@@ -1,10 +1,17 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/index";
+import Footer from "../../Components/Footer/index";
+import HeroSection from "./Components/HeroSection/HeroSection";
+import Teamsection from "./Components/TeamSection/Teamsection";
 
 const index = () => {
   return (
-    <div>
-      <h1>Our team</h1>
-    </div>
+    <>
+      <Navbar />
+      <HeroSection />
+      <Teamsection />
+      <Footer />
+    </>
   );
 };
 

@@ -25,7 +25,7 @@ const DetailCounter = () => {
                   color: "#1985D2",
                 }}
               >
-                100s
+                300s
               </h2>
               <h3 className="mt-5">of dealerships compete for your car</h3>
             </div>

@@ -12,8 +12,8 @@ const index = () => {
           display: "flex",
         }}
       >
-        <div className="headingMain z-1">Car Chaser</div>
-        <div className="headerInfo">
+        <div className="headingMain z-1 mobwnav">Car Chaser</div>
+        <div className="headerInfo mobwnav">
           <img
             src="./mailIcon.svg"
             alt="mail_icon"
@@ -25,7 +25,7 @@ const index = () => {
               marginRight: "5px",
             }}
           >
-            example@gmail.com
+            @carchaser.ca
           </p>
           <img
             src="./PhoneIcon.svg"
@@ -33,7 +33,7 @@ const index = () => {
             style={{ width: "20px" }}
             className="mb-2 mx-2"
           />
-          <p>+ 09 00 786 01</p>
+          <p>@carchaser.ca</p>
         </div>
       </div>
       <Navbar expand="lg">
@@ -53,6 +53,7 @@ const index = () => {
               <Nav.Link>Trade-in</Nav.Link>
               <Nav.Link>Our promise </Nav.Link>
               <Nav.Link>Dealer network</Nav.Link>
+
               <Nav.Link
                 style={{
                   backgroundColor: "#1985D2",

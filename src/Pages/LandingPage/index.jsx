@@ -4,11 +4,13 @@ import DetailCounter from "./Components/DetailsCounter/DetailCounter";
 import MobileDownload from "./Components/MobileDownload/MobileDownload";
 import Footer from "../../Components/Footer/index";
 import "./landingPage.css";
+import HerSection from "./Components/HeroSection/HerSection";
 
 const index = () => {
   return (
     <>
       <Navbar />
+      <HerSection />
       <DetailCounter />
       <MobileDownload />
       <div

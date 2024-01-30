@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
+import { Col, Row } from "react-bootstrap";
 
 const index = () => {
   return (
@@ -11,17 +12,16 @@ const index = () => {
       }}
     >
       <div className="container">
-        <div
-          className="row"
+        <Row
           style={{
             paddingTop: "2em",
           }}
         >
-          <div className="col-sm col-12 text-light d-flex flex-column ">
+          <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4 className="border-bottom py-2 ">Location</h4>
             <p className="pt-2 ">Ontario</p>
-          </div>
-          <div className="col-sm col-12 text-light d-flex flex-column ">
+          </Col>
+          <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4 className="border-bottom py-2 ">Company</h4>
             <Link to="/story" className="link">
               <p className="pt-2 ">Our story</p>
@@ -32,18 +32,18 @@ const index = () => {
             <Link to="/team" className="link">
               <p>Our team </p>
             </Link>
-          </div>
-          <div className="col-sm col-12 text-light d-flex flex-column ">
+          </Col>
+          <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4 className="border-bottom py-2 ">Car chaser</h4>
             <p className="py-2 ">The process</p>
             <p>Trade in</p>
             <p>Our process</p>
-          </div>
-          <div className="col-sm col-12 text-light d-flex flex-column ">
+          </Col>
+          <Col xs={6} lg={3} className=" text-light d-flex flex-column ">
             <h4 className="border-bottom py-2 ">Help center</h4>
             <p className="py-2 ">Contact us</p>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </div>
   );
