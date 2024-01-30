@@ -4,6 +4,7 @@ import LandingPage from "./Pages/LandingPage/index";
 import Story from "./Pages/Story/index";
 import Vision from "./Pages/Vision/index";
 import Team from "./Pages/Team/index";
+import Trade from "./Pages/Tradein";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,13 @@ function App() {
       path: "/team",
       element: <Team />,
     },
+    {
+      path: "/Trade",
+      element: <Trade />,
+    },
+
+
+    
   ]);
   return (
     <>

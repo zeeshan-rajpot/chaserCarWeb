@@ -3,6 +3,8 @@ import "./LandingPage.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+
 
 const index = () => {
   return (
@@ -12,7 +14,11 @@ const index = () => {
           display: "flex",
         }}
       >
-        <div className="headingMain z-1 mobwnav">Car Chaser</div>
+        <div className="headingMain z-1 mobwnav">
+          <Link to='/'>
+          Car Chaser
+          </Link>
+          </div>
         <div className="headerInfo mobwnav">
           <img
             src="./mailIcon.svg"
@@ -50,7 +56,9 @@ const index = () => {
               }}
             >
               <Nav.Link>The process</Nav.Link>
-              <Nav.Link>Trade-in</Nav.Link>
+              <Link to= '/Trade'>
+                <span className="nav-link">
+                Trade-in       </span></Link>
               <Nav.Link>Our promise </Nav.Link>
               <Nav.Link>Dealer network</Nav.Link>
 

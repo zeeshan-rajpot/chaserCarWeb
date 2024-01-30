@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div
         className="bgheroSection mb-5"
         style={{
-          height: "95vh",
+          height: "700px",
         }}
       >
         <div
